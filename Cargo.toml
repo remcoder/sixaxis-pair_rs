@@ -15,3 +15,7 @@ nusb = "0.1.7"
 
 [target.'cfg(windows)'.dependencies]
 hidapi = { version = "2.6.1", features = ["windows-native", "linux-native"] }
+
+#[target.x86_64-apple-darwin]
+#rustflags = ["-C", "link-arg=-Wl,-dead_strip"]
+#linker = "clang"

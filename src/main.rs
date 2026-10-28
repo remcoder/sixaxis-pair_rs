@@ -12,6 +12,7 @@ use std::{env, error::Error, process::exit, str::FromStr};
 
 const VENDOR: u16 = 0x054c;
 const PRODUCT: u16 = 0x0268;
+// const PRODUCT: u16 = 0x09cc;
 const MAC_REPORT_ID: u8 = 0xf5;
 
 fn main() {
